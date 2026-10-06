@@ -1,0 +1,18 @@
+name: ci
+on:
+  pull_request:
+  push:
+    branches: [main]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - run: "true"
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - run: "true"
+  leak-detector:
+    runs-on: ubuntu-latest
+    steps:
+      - run: "true"
